@@ -32,13 +32,9 @@ p {
     padding: 0 20px;
 }
 
-.enjoy {
-    color: #f7c08a;
-}
+.enjoy { color: #f7c08a; }
 
-.lead {
-    font-size: 18px;
-}
+.lead { font-size: 18px; }
 
 .btn {
     border-radius: 8px 8px;
@@ -64,6 +60,25 @@ p {
     background: #333;
     color: #fff;
 }
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #444;
+}
+
+.clr { clear: both; }
+
+.l-heading { font-size: 45px; }
+
+/* Padding */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
 
 
 /* Navbar */
@@ -134,7 +149,7 @@ p {
 }
 
 #home-info .info-img {
-    background: url(../images/hotelier2.jpeg);
+    background: url(../images/buildings8.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto;
@@ -162,6 +177,65 @@ p {
     padding: 50px;
     text-align: center;
     width: 33.3%;
+}
+
+.box i {
+    margin-bottom: 9px;
+}
+
+/*About Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+    background: url(../images/Sofitel1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+    padding-top: 75px;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    float: left;
+    opacity: 0.5px;
+}
+
+/* Main Footer */
+#main-footer {
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 
