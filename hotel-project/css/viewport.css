@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: #333 url('../images/buildings9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 64px;
+}
+
+.header p {
+    margin: 1rem 0;
+}
+
+h1 .w-head {
+    color: #f7c08a;
+}
+
+.btn {
+    background: #fff;
+    border-radius: 7px;
+    color: #444;
+    display: inline-block;
+    font-weight: 900px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    border-radius: 7px;
+    color: #fff;
+}
+
+a {
+    margin-top: 20px;
+}
+
+.container {
+    margin: 250px;
+}
